@@ -1,7 +1,9 @@
 package model;
 
 import enums.MessageSubject;
+import lombok.Data;
 
+@Data
 public class Message {
 
     private MessageSubject subject;

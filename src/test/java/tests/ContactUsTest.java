@@ -36,7 +36,6 @@ public class ContactUsTest extends BaseTest {
         assertThat(contactUsFormPage.isRedAlertBoxDisplayed()).isTrue();
     }
 
-
     @Test
     public void shouldNotAllowToSendContactUsFormWithEmailOnly() {
         topMenuPage.clickOnContactUsLink();
