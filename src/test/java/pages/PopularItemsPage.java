@@ -14,11 +14,11 @@ public class PopularItemsPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(css = "#homefeatured .product-name")
-    List<WebElement> productNames;
+    @FindBy(css = ".product_list")
+    List<WebElement> productList;
 
     public List<String> getProductNames() {
-        return productNames.stream()
+        return productList.stream()
                 .map(el -> el.getText().trim())
                 .collect(Collectors.toList());
     }
