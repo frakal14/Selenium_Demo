@@ -2,15 +2,12 @@ package tests;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.NavigationPage;
 import pages.WomenCategoryPage;
 import utils.PageTitleUtils;
 
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

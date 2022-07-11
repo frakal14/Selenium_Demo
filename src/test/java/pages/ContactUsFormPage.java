@@ -39,6 +39,7 @@ public class ContactUsFormPage extends BasePage {
     WebElement messageTextArea;
 
     public void clickOnSendButton() {
+        wait.until(ExpectedConditions.visibilityOf(sendButton));
         sendButton.click();
     }
 

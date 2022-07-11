@@ -32,8 +32,8 @@ public class SearchPage extends BasePage {
         return searchResultProductName.getText();
     }
 
-    public WebElement getSearchResultText() {
-        return searchResultText;
+    public String getSearchResultText() {
+        return searchResultText.getText();
     }
 
     public void searchInput() {

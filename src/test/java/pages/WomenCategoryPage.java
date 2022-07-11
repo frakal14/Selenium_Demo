@@ -31,14 +31,15 @@ public class WomenCategoryPage extends BasePage {
 
 
     public WebElement getWomenHeroBlock() {
-        return womenHeroBlock;
+        return
+                womenHeroBlock;
     }
 
 
     public List<String> getWomenProductPriceList() {
-         return womenProductsPriceList.stream()
+        return womenProductsPriceList.stream()
                 .map(el -> el.getText().trim())
-                 .collect(Collectors.toList());
+                .collect(Collectors.toList());
 
     }
 }

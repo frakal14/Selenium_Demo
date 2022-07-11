@@ -6,6 +6,12 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import utils.PageTitleUtils;
+
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class BaseTest {
@@ -17,6 +23,7 @@ public class BaseTest {
     @BeforeAll
     public static void setupClass() {
         WebDriverManager.chromedriver().setup();
+
     }
 
 

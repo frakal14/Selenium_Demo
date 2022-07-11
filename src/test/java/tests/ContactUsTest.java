@@ -29,7 +29,7 @@ public class ContactUsTest extends BaseTest {
     }
 
     @Test
-    public void shouldNotAllowToSEndEmptyContactUsForm() {
+    public void shouldNotAllowToSendEmptyContactUsForm() {
         topMenuPage.clickOnContactUsLink();
         contactUsFormPage.clickOnSendButton();
 

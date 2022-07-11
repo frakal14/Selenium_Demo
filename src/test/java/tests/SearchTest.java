@@ -3,7 +3,6 @@ package tests;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pages.NavigationPage;
 import pages.SearchPage;
 import utils.PageTitleUtils;
 
@@ -32,7 +31,7 @@ public class SearchTest extends BaseTest {
     public void searchBlouseProduct() {
         searchPage.searchInput();
         assertThat(searchPage.getSearchResultProductName()).isEqualTo("Blouse");
-        assertThat(searchPage.getSearchResultProductPrice()).isEqualTo("27");
+        assertThat(searchPage.getSearchResultProductPrice()).isEqualTo("$27.00");
     }
 
 

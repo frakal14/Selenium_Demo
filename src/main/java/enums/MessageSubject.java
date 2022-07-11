@@ -7,6 +7,7 @@ public enum MessageSubject {
     private String value;
 
     MessageSubject(String value) {
+
         this.value = value;
     }
         public String getValue() {
